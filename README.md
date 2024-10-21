@@ -8,6 +8,10 @@
 - Windows 10 <br>
 - Windows Server 2022 <br>
 
+<h2> A Record </h2>
+<h2> Local DNS Cache </h2>
+<h2> CNAME Record </h2>
+
 <h2>Resources to learn DNS in depth</h2>
 
 [CloudFlare.com](https://www.cloudflare.com/learning/dns/what-is-dns/)
