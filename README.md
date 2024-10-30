@@ -13,6 +13,13 @@
 <p><b>Nslookup</b>: s a tool that maps IP address information and obtains domain name. Used for troubleshooting and confirming network DNS configurations.</p>
 <p><b>Ipconfig</b>: is a tool to display and manage the IP configuration of the network. Details IP addresses, subnet masks, default gateways and DNS servers.</p>
 
+<h2>Prerequisites</h2>
+<p>
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/e0b19458-0154-43b3-8b12-9cd0f2a66eed" height="50%" width="50%" alt="step one"/>
+</p>
+<p>
+The Virtual Machines used are shown in the previous project Active Directory. To paraphrase the previous project; "Virtual machines must be in the same resource group and virtual network to connect. The virtual network can be created separately. The Domain Controller uses Windows Server 2022, while the client computer runs Windows 10. The NIC of the Domain Controller needs to be set to static, and the client's DNS should match the Domain Controller's DNS. Both, NIC as static and DNS can be adjusted in Azure."
 <h2> A Record </h2>
 <p>
 <p align="center">
