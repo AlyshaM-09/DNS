@@ -10,7 +10,7 @@
 
 <h2> Definitions</h2>
 <p><b>Ping</b>: is a network tool used to test reachability of a host on an IP network.</p>
-<p><b>Nslookup</b>: is a tool that maps IP address information and obtaining domain name. Used for troubleshooting and confirming network DNS configurations.</p>
+<p><b>Nslookup</b>: s a tool that maps IP address information and obtains domain name. Used for troubleshooting and confirming network DNS configurations.</p>
 <p><b>Ipconfig</b>: is a tool to display and manage the IP configuration of the network. Details IP addresses, subnet masks, default gateways and DNS servers.</p>
 
 <h2> A Record </h2>
@@ -31,7 +31,8 @@ From the previous practice, log back into DC-1 and Client-1 as (name)-admin.
     <img src="https://github.com/user-attachments/assets/7df4ecc3-175a-4125-953c-e6d07945fb8f" height="70%" width="70%" alt="step one"/>
 </p>
 <p>
-  For mainframe to show up on powershell, go to DC-1 search for DNS. Click dc-1, forward lookup zone, mydomain, right click, click new host A, create new host, type in mainframe and the dns address of DC-1, finally select the first box below. 
+  For the mainframe to show up on powershell, go to DC-1 search for DNS. Click dc-1, forward lookup zone, my domain, right click, click new host A, create new host, type in mainframe and the dns address of DC-1, finally select the first box below. 
+ 
 <p>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/9226114d-d731-484e-ad9f-9ca80a2dcfc1" height="70%" width="70%" alt="step one"/>
@@ -65,7 +66,7 @@ From the previous practice, log back into DC-1 and Client-1 as (name)-admin.
     <img src="https://github.com/user-attachments/assets/18af0a50-9ecb-447d-a7d3-f67a7e001f85" height="70%" width="70%" alt="step one"/>
 </p>
 <p>
-  Ping to mainframe again and the new adress will show appear.
+  Ping to mainframe again and the new address will show appear.
 </p>
   
 <h2> CNAME Record </h2>
@@ -74,7 +75,7 @@ From the previous practice, log back into DC-1 and Client-1 as (name)-admin.
     <img src="https://github.com/user-attachments/assets/d042dae2-2d3b-4e3a-8896-f81802e92e39" height="70%" width="70%" alt="step one"/>
 </p>
 <p>
-  CNAME can be found in the place as New Host A in DC-1. Type in search for the first box and ww.google.com in the second box. These names are just for the example. 
+  CNAME can be found in the place as New Host A in DC-1. Type in search for the first box and www.google.com in the second box. These names are just for the example. 
 <p>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/532a8f55-7b55-4394-a193-090676bb5727" height="70%" width="70%" alt="step one"/>
